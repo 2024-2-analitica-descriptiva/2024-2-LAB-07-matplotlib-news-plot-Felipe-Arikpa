@@ -108,5 +108,5 @@ def pregunta_01():
     return print('gráfico creado con éxito')
 
 
-if __name__ == "__main__":
-    pregunta_01()
+# if __name__ == "__main__":
+#     pregunta_01()
