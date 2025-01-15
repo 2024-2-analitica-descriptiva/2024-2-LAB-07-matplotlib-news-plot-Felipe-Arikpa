@@ -104,9 +104,8 @@ def pregunta_01():
 
     plt.tight_layout()
     plt.savefig('files/input/plots/news.png')
-
+    plt.show()
     return print('gráfico creado con éxito')
 
-
-# if __name__ == "__main__":
-#     pregunta_01()
+if __name__ == "__main__":
+    pregunta_01()
