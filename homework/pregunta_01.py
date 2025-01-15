@@ -20,7 +20,7 @@ def pregunta_01():
     import matplotlib.pyplot as plt
     import os
 
-    os.makedirs('files/input/plots', exist_ok=True)
+    os.makedirs('files/plots', exist_ok=True)
 
     dataset = pd.read_csv('files/input/news.csv', sep=',', index_col=0)
 
@@ -103,9 +103,7 @@ def pregunta_01():
     )
 
     plt.tight_layout()
-    plt.savefig('files/input/plots/news.png')
+    plt.savefig('files/plots/news.png')
     plt.show()
-    return print('gráfico creado con éxito')
 
-if __name__ == "__main__":
-    pregunta_01()
+pregunta_01()
